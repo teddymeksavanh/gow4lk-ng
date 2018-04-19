@@ -18,7 +18,7 @@ export class ApiService {
         private headersService: HeadersService,
         private router: Router
     ) {
-        this.apiUrl = 'http://localhost:3001/api';
+        this.apiUrl = 'http://0.0.0.0:3000';
     }
 
     /*

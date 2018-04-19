@@ -20,10 +20,10 @@ export class AuthService {
     ) { }
 
     register(user): Observable<User[]> {
-        return this.apiService.post('/auth/register', user);
+        return this.apiService.post('/signup', user);
     }
 
     signin(user): Observable<User[]> {
-        return this.apiService.post('/auth/sign_in', user);
+        return this.apiService.post('/auth/login', user);
     }
 }
